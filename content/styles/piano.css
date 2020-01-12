@@ -1,0 +1,361 @@
+body {
+    /*background-color: black;*/
+    margin: 0;
+
+    align-content: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.page-header{
+    height: 45px;
+    vertical-align: middle;
+
+    background-color: #212121;
+}
+
+.page-header > img{
+    width: 91px;
+    cursor: pointer;
+
+    margin-left: 10px;
+}
+
+.page-header > span {
+    position: relative;
+    bottom: 16px;
+    color: white;
+    
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    
+    font-family: monospace;
+    font-size: 13px;
+    text-transform: uppercase;
+
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px 8px;
+}
+
+.page-header > span:hover{
+    color: white;
+    
+    background-color: #ff8322;
+}
+
+main{
+    height: 455px;
+    width: 1325px;
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(68,68,68,1)), color-stop(0%,rgba(68,68,68,1)), color-stop(0%,rgba(73,73,73,1)), color-stop(1%,rgba(73,73,73,1)), color-stop(1%,rgba(83,83,83,1)), color-stop(1%,rgba(83,83,83,1)), color-stop(2%,rgba(88,88,88,1)), color-stop(2%,rgba(88,88,88,1)), color-stop(2%,rgba(94,94,94,1)), color-stop(2%,rgba(94,94,94,1)), color-stop(2%,rgba(91,91,91,1)), color-stop(3%,rgba(89,89,89,1)), color-stop(4%,rgba(81,81,81,1)), color-stop(5%,rgba(77,77,77,1)), color-stop(6%,rgba(69,69,69,1)), color-stop(8%,rgba(58,58,58,1)), color-stop(44%,rgba(0,0,0,1)), color-stop(81%,rgba(24,24,24,1)), color-stop(97%,rgba(60,60,60,1)), color-stop(97%,rgba(52,52,52,1)), color-stop(97%,rgba(52,52,52,1)), color-stop(98%,rgba(45,45,45,1)), color-stop(98%,rgba(45,45,45,1)), color-stop(98%,rgba(37,37,37,1)), color-stop(98%,rgba(37,37,37,1)), color-stop(98%,rgba(30,30,30,1)), color-stop(99%,rgba(30,30,30,1)), color-stop(99%,rgba(22,22,22,1)), color-stop(99%,rgba(22,22,22,1)), color-stop(100%,rgba(7,7,7,1)), color-stop(100%,rgba(7,7,7,1)), color-stop(100%,rgba(0,0,0,1)));
+
+    padding-top: 30px;
+    border-radius: 15px;
+    margin: 100px auto auto;
+}
+
+.container{
+    text-align: center;
+    
+    width: 1260px;
+    margin: 0 30px 10px 53px;
+}
+
+.divPointLeft{
+    height: 134px;
+    width: 385px;
+    display: inline-block;
+    margin: 0 12px 10px 70px;
+    
+    background: url(../images/dinamic.png);
+    border-radius: 13px;
+}
+
+.imgPointLeft{
+    position: absolute;
+    top: 200px;
+    opacity: 0.5;
+    margin-left: 95px;
+    /*transition: 0.7s;*/
+}
+
+.imgPointLeft:hover {
+    opacity: 1;
+}
+
+.menuPiano{
+    height: 134px;
+    width: 385px;
+    display: inline-block;
+    position: absolute;
+
+    
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#101010), color-stop(38%,#222222), color-stop(100%,#101010));
+    border-radius: 15px;
+    
+}
+
+.menuBtnConf {
+    height: 24px;
+    width: 168px;
+    display: inline-block;
+    color: #f4f4f4;
+    font-family: monospace;
+    text-shadow: 0px 0px 4px #fb6e11;
+
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0d0d0d), color-stop(1%,#131313), color-stop(8%,#292929), color-stop(15%,#1f1f1f), color-stop(19%,#181818), color-stop(33%,#20201f), color-stop(34%,#232220), color-stop(40%,#232322), color-stop(49%,#292929), color-stop(89%,#191918), color-stop(92%,#1f1e1c), color-stop(93%,#1e1e1e), color-stop(100%,#2a2a2a));
+    border: 2px solid #000;
+    border-top: 2px solid #4b4b4b;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 3px;
+}
+
+.menuBtnConf:hover{
+    cursor: pointer;
+    border-radius: 11px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#262626), color-stop(7%,#2a2a2a), color-stop(10%,#232323), color-stop(14%,#1f1f1f), color-stop(17%,#181818), color-stop(30%,#202020), color-stop(31%,#232323), color-stop(34%,#222222), color-stop(41%,#262626), color-stop(43%,#2a2a2a), color-stop(44%,#282828), color-stop(50%,#262626), color-stop(53%,#272727), color-stop(54%,#242424), color-stop(61%,#212121), color-stop(65%,#202020), color-stop(66%,#222222), color-stop(67%,#1f1f1f), color-stop(71%,#1d1d1d), color-stop(72%,#1f1f1f), color-stop(75%,#1b1b1b), color-stop(78%,#1d1d1d), color-stop(79%,#1a1a1a), color-stop(82%,#191919), color-stop(83%,#1c1c1c), color-stop(84%,#1f1f1f), color-stop(85%,#1d1d1d), color-stop(86%,#1e1e1e), color-stop(93%,#2b2b2b), color-stop(100%,#292929)); 
+
+    transition: 1s;
+}
+
+
+.musicSheets {
+    display: inline-block;
+    margin: 15px 16px 6px 17px;
+}
+
+.keyAssistOff{
+    display: inline-block;
+}
+
+.changeStyle{
+    display: inline-block;
+    margin: 14px 15px 16px 17px;
+}
+
+.theWorld {
+    display: inline-block;
+}
+
+.spanPlay{
+    position: absolute;
+    color: #f98133;
+    font-size: 40px;
+    font-family: monospace;
+
+    margin: 27px 0 0 35px;
+    text-shadow: 0px 0px 6px #fb6e11;
+}
+
+.menuRight {
+    width: 190px;
+    height: 84px;
+    display: inline-block;
+    color: #f98133;
+
+    text-align: center;
+    margin: 10px 0 5px 175px;
+    border-left: 1px solid #f98133;
+}
+
+.yourKeyboard{
+    position: relative;
+    top: 10px;
+    
+    font-size: 11px;
+    text-shadow: 0px 0px 6px #fb6e11;
+}
+
+.pressAKey{
+    position: relative;
+    top: 15px;
+    font-family: monospace;
+    font-size: 27px;
+    
+    text-shadow: 0px 0px 6px #fb6e11;
+}
+
+.spanBtnMenu{
+    width: 370px;
+    text-align: center;
+    display: inline-block;
+    border-top: 1px solid #f98133;
+    margin: 5px auto auto 8px;
+}
+
+.menuBtn{
+    height: 24px;
+    width: 168px;
+
+    color: #f4f4f4;
+    font-family: monospace;
+    text-shadow: 0px 0px 4px #fb6e11;
+
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0d0d0d), color-stop(1%,#131313), color-stop(8%,#292929), color-stop(15%,#1f1f1f), color-stop(19%,#181818), color-stop(33%,#20201f), color-stop(34%,#232220), color-stop(40%,#232322), color-stop(49%,#292929), color-stop(89%,#191918), color-stop(92%,#1f1e1c), color-stop(93%,#1e1e1e), color-stop(100%,#2a2a2a));
+    border: 2px solid #000;
+    border-top: 2px solid #4b4b4b;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 3px;
+
+    /*transition: 1s;*/
+}
+
+.menuBtn:hover {
+        cursor: pointer;
+        border-radius: 11px;
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#262626), color-stop(7%,#2a2a2a), color-stop(10%,#232323), color-stop(14%,#1f1f1f), color-stop(17%,#181818), color-stop(30%,#202020), color-stop(31%,#232323), color-stop(34%,#222222), color-stop(41%,#262626), color-stop(43%,#2a2a2a), color-stop(44%,#282828), color-stop(50%,#262626), color-stop(53%,#272727), color-stop(54%,#242424), color-stop(61%,#212121), color-stop(65%,#202020), color-stop(66%,#222222), color-stop(67%,#1f1f1f), color-stop(71%,#1d1d1d), color-stop(72%,#1f1f1f), color-stop(75%,#1b1b1b), color-stop(78%,#1d1d1d), color-stop(79%,#1a1a1a), color-stop(82%,#191919), color-stop(83%,#1c1c1c), color-stop(84%,#1f1f1f), color-stop(85%,#1d1d1d), color-stop(86%,#1e1e1e), color-stop(93%,#2b2b2b), color-stop(100%,#292929)); 
+
+        transition: 1s;
+    }
+
+.btnHelp{
+    height: 24px;
+    width: 27px;
+    color: #f4f4f4;
+    position: absolute;
+    right: 16px;
+    
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0d0d0d), color-stop(1%,#131313), color-stop(8%,#292929), color-stop(15%,#1f1f1f), color-stop(19%,#181818), color-stop(33%,#20201f), color-stop(34%,#232220), color-stop(40%,#232322), color-stop(49%,#292929), color-stop(89%,#191918), color-stop(92%,#1f1e1c), color-stop(93%,#1e1e1e), color-stop(100%,#2a2a2a));
+    border: 2px solid #000;
+    border-top: 2px solid #4b4b4b;
+    border-radius: 6px;
+    outline: none;
+    
+    margin-top: 4px;
+}
+
+.divRightPoint{
+    height: 134px;
+    width: 385px;
+    display: inline-block;
+    margin: 0 10px 10px 397px;
+    background: url(../images/dinamic.png);
+    border-radius: 13px;  
+}
+
+ .aMadeByCrystal {
+    width: 288px;
+    position: absolute;
+    top: 155px;
+    color: #000;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 0.5;
+    overflow: hidden;
+    margin-left: 119px;
+    /*transition: 0.6s;*/
+}
+.aMadeByCrystal:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.divDivider{
+    
+    height: 25px;
+    width: 1240px;
+    
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(68,68,68,1)), color-stop(4%,rgba(83,83,83,1)), color-stop(8%,rgba(56,56,56,1)), color-stop(12%,rgba(34,34,34,1)), color-stop(24%,rgba(21,21,21,1)), color-stop(40%,rgba(11,11,11,1)), color-stop(52%,rgba(8,8,8,1)), color-stop(64%,rgba(9,9,9,1)), color-stop(84%,rgba(16,16,16,1)), color-stop(88%,rgba(23,23,23,1)), color-stop(96%,rgba(42,42,42,1)), color-stop(100%,rgba(58,58,58,1)));
+    border-radius: 15px;
+    cursor: pointer;
+    
+    margin: 10px auto 0 auto;
+}
+
+.keys{
+    width: 56px;
+    z-index: 0;
+    display: inline-block;
+    margin-left: -21px;
+
+}
+
+.pitch{
+    height: 238px;
+    width: 34px;
+
+    position: relative;
+    
+
+    border: 3px outset;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+}
+
+.sharp{
+    padding: 0;
+    height: 152px;
+    width: 21px;
+    
+    position: relative;
+
+    z-index: 1;
+    top: -85px;
+    left: -11px;
+
+    background: url(../images/sharp.png) no-repeat;
+    background-size: cover;
+    border: 1px inset black;
+    border-radius: 5px;
+}
+
+.spanAssertKey{
+    width: 27px;
+    position: absolute;
+    transition: .37s;
+    height: 25px;
+    z-index: 1;
+    top: 165px;
+    font-size: 21px;
+    background-color: #ebebeb;
+    border-bottom: 1px solid #d9d9d9;
+    border-right: 0;
+}
+
+.sharp > span {
+    width: 14px;
+    position: absolute;
+    transition: .37s;
+    top: 30px;
+    color: #fff;
+    padding: 2px;
+}
+
+.sharp > span > div:nth-of-type(2n + 1) {
+    height: 18px;
+    width: 19px;
+    background-color: #4e4e4e;
+    font-family: monospace;
+    margin-left: -3px;
+}
+
+.assertArrow{
+    transform: rotate(-90deg);
+}
+
+.down_ptch {
+    height: 238px;
+    width: 34px;
+    
+    position: relative;
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(34%,#fdfdfd), color-stop(41%,#f9f9f9), color-stop(54%,#ededed), color-stop(66%,#dadada), color-stop(79%,#bbbbbb), color-stop(86%,#a6a6a6), color-stop(95%,#888888), color-stop(95%,#888888), color-stop(99%,#999999), color-stop(100%,#939393));
+}
+
+.down_sharp {
+    background: url(../images/down_sharp.png) no-repeat;
+    background-size: cover;
+}
+
+.invisiable{
+    visibility: hidden;
+}
