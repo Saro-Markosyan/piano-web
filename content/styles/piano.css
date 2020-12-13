@@ -308,6 +308,12 @@ main{
     border-radius: 5px;
 }
 
+@-moz-document url-prefix() {
+  .sharp {
+    top: -44px;
+  }
+}
+
 .spanAssertKey{
     width: 27px;
     position: absolute;
