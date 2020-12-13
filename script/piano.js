@@ -96,9 +96,10 @@ $(function () {
                             $('.spanAssertKey').css('margin-left', '0');
                             $('.spanAssertSharp').css('margin-left', '0');
                         }
-                        
+
                         $('.spanAssertKey').show();
                         $('.spanAssertSharp').show();
+                        $('.sharp').css('top', '-44px');
                         
                         $(this).text("KEY ASSIST ON");
                     } else {
@@ -107,6 +108,14 @@ $(function () {
                         
                         $('.spanAssertKey').hide();
                         $('.spanAssertSharp').hide();
+
+                        // Firefox 1.0+
+                        var isFirefox = typeof InstallTrigger !== 'undefined';
+                        if (isFirefox) {
+                            $('.sharp').css('top', '-44px');
+                        } else {
+                            $('.sharp').css('top', '-85px');
+                        }
                         
                         $(this).text("KEY ASSIST OFF");
                     }
@@ -233,6 +242,7 @@ $(function () {
             $($buttonSharp).appendTo(".key"+ j);
         }
         var btn;
+        $('sharp').css('top', '-85px');
         $('.sharp').each(function(i, obj){
             //if (/^3$|^7$|10|14|17|21|24|28|31|35|36/.test(i.toString)) {
             if (sharpInvisableIndexes.includes(i)) {
